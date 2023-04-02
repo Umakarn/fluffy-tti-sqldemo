@@ -5,6 +5,12 @@
 		"factoryName": {
 			"value": "fluffy-tti-sqldemo"
 		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_connectionString": {
+			"value": ""
+		},
 		"containerUri": {
 			"value": ""
 		},

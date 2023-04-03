@@ -1,0 +1,21 @@
+{
+	"name": "pl_ds_archive",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "tbstorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "tbarchive"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"name": "pl_ds_DbStatsResult_LoadTesttbl",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "collabsmokesiteddb",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "AccountExternalId",
+				"type": "varchar"
+			},
+			{
+				"name": "GbProcessedPerMonth",
+				"type": "decimal",
+				"precision": 21,
+				"scale": 4
+			},
+			{
+				"name": "GbAIExtractedPerMonth",
+				"type": "decimal",
+				"precision": 21,
+				"scale": 4
+			},
+			{
+				"name": "DocsProcessedPerMonth",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "DbStatsResult_LoadTest"
+		}
+	}
+}

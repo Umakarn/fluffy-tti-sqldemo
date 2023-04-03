@@ -15,6 +15,18 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureSqlDatabase1'"
 		},
+		"collabsmokesiteddb_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'collabsmokesiteddb'"
+		},
+		"tbstorage_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'tbstorage'"
+		},
+		"tbstorage1_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'tbstorage1'"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -47,6 +59,15 @@
 					},
 					"AzureSqlDatabase1_connectionString": {
 						"value": "[parameters('AzureSqlDatabase1_connectionString')]"
+					},
+					"collabsmokesiteddb_connectionString": {
+						"value": "[parameters('collabsmokesiteddb_connectionString')]"
+					},
+					"tbstorage_connectionString": {
+						"value": "[parameters('tbstorage_connectionString')]"
+					},
+					"tbstorage1_connectionString": {
+						"value": "[parameters('tbstorage1_connectionString')]"
 					}
 				}
 			},

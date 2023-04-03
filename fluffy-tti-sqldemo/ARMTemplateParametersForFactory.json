@@ -10,6 +10,15 @@
 		},
 		"AzureSqlDatabase1_connectionString": {
 			"value": ""
+		},
+		"collabsmokesiteddb_connectionString": {
+			"value": ""
+		},
+		"tbstorage_connectionString": {
+			"value": ""
+		},
+		"tbstorage1_connectionString": {
+			"value": ""
 		}
 	}
 }

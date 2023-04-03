@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy csreportingfiletoDbStatsResult_LoadTest",
+				"name": "CopycsreportingfiletoDbStatsResult_LoadTest",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
@@ -60,7 +60,7 @@
 				"type": "Copy",
 				"dependsOn": [
 					{
-						"activity": "Copy csreportingfiletoDbStatsResult_LoadTest",
+						"activity": "CopycsreportingfiletoDbStatsResult_LoadTest",
 						"dependencyConditions": [
 							"Succeeded"
 						]
